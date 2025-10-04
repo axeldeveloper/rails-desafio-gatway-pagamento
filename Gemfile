@@ -103,7 +103,7 @@ end
 
 group :test do
   # gem "rspec-rails", "~> 6.0"
-  gem "shoulda-matchers", "~> 5.3"
+  gem "shoulda-matchers", "~> 6.5"
   gem "webmock", "~> 3.19"
   gem "vcr", "~> 6.2"
   gem "database_cleaner-active_record", "~> 2.1"
