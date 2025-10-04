@@ -14,7 +14,7 @@ gem "bcrypt", "~> 3.1.7"
 
 # Background Jobs
 gem "sidekiq", "~> 7.2"
-gem "sidekiq-cron", "~> 1.10"
+gem "sidekiq-cron", "~> 2.3"
 
 
 # HTTP Client
