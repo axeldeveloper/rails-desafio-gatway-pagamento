@@ -28,7 +28,7 @@ gem "jwt", "~> 2.7"
 gem "jsonapi-serializer"
 
 # Validations & Utilities
-gem "cpf_cnpj", "~> 0.5"
+gem "cpf_cnpj", "~> 1.0"
 
 
 # Money handling
