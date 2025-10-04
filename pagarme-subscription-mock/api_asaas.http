@@ -1,0 +1,60 @@
+###
+GET http://localhost:3001/asaas/customers HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:3001/asaas/customers HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Valentin Doe",
+  "cpfCnpj": "82971563792",
+  "email": "Valentin.doe@asaas.com.br",
+  "phone": "4735010919",
+  "mobilePhone": "4799376637",
+  "address": "Av. Paulista",
+  "addressNumber": "150",
+  "complement": "Sala 201",
+  "province": "Centro",
+  "postalCode": "01310-000",
+  "externalReference": "12987382",
+  "notificationDisabled": false,
+  "additionalEmailsv": "Valentin.doe@asaas.com,john.doe.silva@asaas.com.br",
+  "municipalInscription": "46683695908",
+  "stateInscription": "646681195275",
+  "observations": "ótimo pagador, nenhum problema até o momento",
+  "groupName": null,
+  "company": null,
+  "foreignCustomer": false
+}
+
+
+
+
+###
+GET http://localhost:3001/asaas/subscriptions HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:3001/asaas/subscriptions HTTP/1.1
+content-type: application/json
+
+{
+    "object": "subscription",
+    "customer": "cus_ktJBYgdemo823",
+    "billingType": "CREDIT_CARD",
+    "cycle": "MONTHLY",
+    "value": 49.9,
+    "description": "Pro Plan Subscription",
+    "status": "ACTIVE",
+    "plan_id": "plan_premium_061",
+    "payment_method": "credit_card",
+    "maxPayments": 12,
+    "creditCard": {
+      "creditCardNumber": "8726",
+      "creditCardBrand": "VISA",
+      "creditCardToken": null
+    },
+    "customer_id": "cus_895456"
+
+  }

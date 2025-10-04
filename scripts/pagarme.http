@@ -1,0 +1,40 @@
+##
+POST http://localhost:3001/customers HTTP/1.1
+content-type: application/json
+
+{
+  "external_id": "#3311",
+  "name": "Morpheus Fishburne",
+  "type": "individual",
+  "country": "br",
+  "email": "axel_momore@hotmail.com",
+  "document": "01516168178",
+  "type": "pessoa física",
+  "document_type": "CPF",
+  "phone_numbers": ["+5567993086042"],
+  "birthday": "1965-01-01"
+}
+
+###
+POST http://localhost:3001/subscriptions HTTP/1.1
+content-type: application/json
+
+{
+  "customer_id": "cus_123456789",
+  "plan_id": "plan_21r4CTG0ux77Qv13",
+  "payment_method": "credit_card",
+  "card_id": "card_ci234fx8rr649rt16rtb11132",
+  "postback_url": "https://meusite.com/postbacks",
+  "metadata": {
+    "idProduto": "123",
+    "promocao": "true"
+  }
+}
+
+###
+DELETE http://localhost:3001/subscriptions/cd89 HTTP/1.1
+content-type: application/application/json
+
+{
+  "cancel_pending_invoices": true
+}

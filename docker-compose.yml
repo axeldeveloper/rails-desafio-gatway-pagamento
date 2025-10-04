@@ -1,0 +1,50 @@
+# docker-compose.yml
+# version: '3.8'
+
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: billing_db_development
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  web:
+    build: .
+    # command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    volumes:
+      - ".:/rails"
+    ports:
+      # - "3000:3000"
+      - "80:80"  # Mapear porta 80 do host para 80 do container
+    depends_on:
+      - db
+      - redis
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/billing_db_development
+      REDIS_URL: redis://redis:6379/0
+      RAILS_ENV: development
+
+  sidekiq:
+    build: .
+    command: bundle exec sidekiq
+    volumes:
+      - ".:/rails"
+    depends_on:
+      - db
+      - redis
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/billing_db_development
+      REDIS_URL: redis://redis:6379/0
+
+volumes:
+  postgres_data:

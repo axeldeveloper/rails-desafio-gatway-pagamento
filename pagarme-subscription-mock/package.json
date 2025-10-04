@@ -1,0 +1,19 @@
+{
+  "name": "pagarme-subscription-mock",
+  "description": "API Faker com JSON Server customizado",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "server": "json-server --watch db.json --port 3001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "nodemon": "^3.0.1"
+  }
+}

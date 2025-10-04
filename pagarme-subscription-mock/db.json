@@ -1,0 +1,1020 @@
+{
+  "asaas": {
+    "customers": [
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "gfpyjniyu",
+        "object": "customer",
+        "created_at": "2025-10-02T13:28:13.058Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "dobyflhr5",
+        "object": "customer",
+        "created_at": "2025-10-02T13:30:38.288Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "01ala91ft",
+        "object": "customer",
+        "created_at": "2025-10-02T13:32:40.014Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "sizddkt6m",
+        "object": "customer",
+        "created_at": "2025-10-02T13:32:58.492Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "j6mx2aglw",
+        "object": "customer",
+        "created_at": "2025-10-02T13:33:34.602Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "t2wnr24ou",
+        "object": "customer",
+        "created_at": "2025-10-02T13:41:08.426Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "rn0dfwi08",
+        "object": "customer",
+        "created_at": "2025-10-02T13:41:14.570Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "oj243fab2",
+        "object": "customer",
+        "created_at": "2025-10-02T17:52:47.986Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "l9juigrc7",
+        "object": "customer",
+        "created_at": "2025-10-03T01:05:44.039Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "hcran63gx",
+        "object": "customer",
+        "created_at": "2025-10-03T01:17:43.968Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "onv68q68n",
+        "object": "customer",
+        "created_at": "2025-10-03T01:19:56.428Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "rha4mkxov",
+        "object": "customer",
+        "created_at": "2025-10-03T01:23:28.759Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "ex9mmert5",
+        "object": "customer",
+        "created_at": "2025-10-03T01:26:05.688Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "23bf9zj55",
+        "object": "customer",
+        "created_at": "2025-10-03T01:31:59.248Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "ixt0d4qet",
+        "object": "customer",
+        "created_at": "2025-10-03T01:33:55.928Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "3ddqr00vy",
+        "object": "customer",
+        "created_at": "2025-10-03T01:52:21.862Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "x5ya7lryc",
+        "object": "customer",
+        "created_at": "2025-10-03T02:04:37.650Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "cpfCnpj": "12345678000199",
+        "email": "contato@xpto.com.br",
+        "phone": "+5511452752896",
+        "mobilePhone": "",
+        "postalCode": "52865-550",
+        "address": "Rua da Liberdade, 449",
+        "addressNumber": "",
+        "complement": "",
+        "id": "oepxn1qz8",
+        "object": "customer",
+        "created_at": "2025-10-03T13:50:57.867Z"
+      }
+    ],
+    "subscriptions": []
+  },
+  "pagarme": {
+    "subscriptions": [
+      {
+        "id": "sub_ckl8ez9hv0000e2m4p83a9y0k",
+        "plan_id": "plan_basic_001",
+        "status": "active",
+        "payment_method": "credit_card",
+        "customer": {
+          "id": "cus_123",
+          "name": "João Silva",
+          "email": "joao@example.com"
+        },
+        "current_transaction": {
+          "id": "txn_001",
+          "status": "paid",
+          "amount": 1990
+        }
+      },
+      {
+        "id": "84a0",
+        "customer_id": "cus_123456789",
+        "plan_id": "plan_21r4CTG0ux77Qv13",
+        "payment_method": "credit_card",
+        "card_id": "card_ci234fx8rr649rt16rtb11132",
+        "postback_url": "https://meusite.com/postbacks",
+        "status": "active",
+        "metadata": {
+          "idProduto": "123",
+          "promocao": "true"
+        }
+      },
+      {
+        "id": "79d9",
+        "plan_id": 1,
+        "payment_method": "credit_card",
+        "customer": {
+          "id": 7
+        },
+        "postback_url": null
+      },
+      {
+        "id": "6dae",
+        "customer_id": "cus_123456789",
+        "plan_id": "plan_21r4CTG0ux77Qv13",
+        "payment_method": "credit_card",
+        "card_id": "card_ci234fx8rr649rt16rtb11132",
+        "postback_url": "https://meusite.com/postbacks",
+        "metadata": {
+          "idProduto": "123",
+          "promocao": "true"
+        }
+      },
+      {
+        "id": "76ee",
+        "customer_id": "cus_123456789",
+        "plan_id": "plan_21r4CTG0ux77Qv13",
+        "payment_method": "credit_card",
+        "card_id": "card_ci234fx8rr649rt16rtb11132",
+        "postback_url": "https://meusite.com/postbacks",
+        "metadata": {
+          "idProduto": "123",
+          "promocao": "true"
+        }
+      },
+      {
+        "id": "51e9",
+        "plan_id": 1,
+        "payment_method": "credit_card",
+        "customer": {
+          "id": 8
+        },
+        "postback_url": null
+      },
+      {
+        "id": "ba48",
+        "plan_id": 1,
+        "payment_method": "credit_card",
+        "customer": {
+          "id": 8
+        },
+        "postback_url": null
+      }
+    ],
+    "customers": [
+      {
+        "id": "1",
+        "address": {
+          "country": "BR",
+          "state": "SC",
+          "city": "Itapoa",
+          "zip_code": "89249000",
+          "line_1": "Rua 1960",
+          "line_2": "Balmeário Praia das Palmeiras"
+        },
+        "birthdate": "01/01/1990",
+        "name": "Axel",
+        "email": "axel_nomore@hotmail.com",
+        "code": "cu_123456",
+        "document": "01516168178",
+        "document_type": "CPF",
+        "type": "individual",
+        "gender": "male"
+      },
+      {
+        "id": "8a66",
+        "name": "Hotel Copacabana Palace",
+        "email": "contato@copacabanapalace.com",
+        "document": "12345678000195",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        }
+      },
+      {
+        "id": "23b6",
+        "name": "Hotel Urbano Premium",
+        "email": "admin@urbanopremium.com",
+        "document": "66778899000188",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        }
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "tx4xhwxfz",
+        "created_at": "2025-10-02T13:28:13.045Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "qxy6uwrxl",
+        "created_at": "2025-10-02T13:30:38.276Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "b5fuahfh3",
+        "created_at": "2025-10-02T13:32:40.002Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "dpaxmjejo",
+        "created_at": "2025-10-02T13:32:58.479Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "rp4sxgdv3",
+        "created_at": "2025-10-02T13:33:34.588Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "lq97qv7t4",
+        "created_at": "2025-10-02T13:41:08.414Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "lyff4rixq",
+        "created_at": "2025-10-02T13:41:14.557Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "0dyyzue1p",
+        "created_at": "2025-10-02T17:52:47.971Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "6uxh5lb5l",
+        "created_at": "2025-10-03T01:05:44.022Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "kzvj6l3up",
+        "created_at": "2025-10-03T01:17:43.954Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "2bahzpo9v",
+        "created_at": "2025-10-03T01:19:56.414Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "j74izmeff",
+        "created_at": "2025-10-03T01:23:28.742Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "zytkbntya",
+        "created_at": "2025-10-03T01:26:05.675Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "7buzt8ngo",
+        "created_at": "2025-10-03T01:31:59.236Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "7rjau67qb",
+        "created_at": "2025-10-03T01:33:55.917Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "ad9ohoo4v",
+        "created_at": "2025-10-03T01:52:21.847Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "411ii1m8l",
+        "created_at": "2025-10-03T02:04:37.636Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "bjzz65lnx",
+        "created_at": "2025-10-03T02:04:47.820Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "b78o13jnv",
+        "created_at": "2025-10-03T02:05:06.899Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "ou0riqnls",
+        "created_at": "2025-10-03T02:05:25.119Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "2bdca2gsl",
+        "created_at": "2025-10-03T02:05:29.296Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "lloakmzzv",
+        "created_at": "2025-10-03T02:05:46.426Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "kz0n241i2",
+        "created_at": "2025-10-03T02:06:14.679Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "i4vykr4rq",
+        "created_at": "2025-10-03T02:06:20.305Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "fpzv2d6uh",
+        "created_at": "2025-10-03T02:06:27.461Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "fillvcvae",
+        "created_at": "2025-10-03T02:06:51.552Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "999lemkj2",
+        "created_at": "2025-10-03T02:07:03.909Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "e4gliq5td",
+        "created_at": "2025-10-03T02:07:15.235Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "d612omx7m",
+        "created_at": "2025-10-03T02:07:18.943Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "2ye9ahgzv",
+        "created_at": "2025-10-03T02:07:43.645Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "lshxpsbet",
+        "created_at": "2025-10-03T02:08:07.806Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "hvmowaetj",
+        "created_at": "2025-10-03T02:08:13.582Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "3ggofxknq",
+        "created_at": "2025-10-03T02:08:19.064Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "pje6k2b6l",
+        "created_at": "2025-10-03T13:49:48.625Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "bisms1zyr",
+        "created_at": "2025-10-03T13:50:57.853Z"
+      },
+      {
+        "name": "Empresa Xpto Ltda",
+        "email": "contato@xpto.com.br",
+        "document": "12345678000199",
+        "document_type": null,
+        "code": null,
+        "type": "individual",
+        "phones": {
+          "mobile_phone": {
+            "country_code": "55",
+            "area_code": null,
+            "number": null
+          }
+        },
+        "id": "kxk8scz1k",
+        "created_at": "2025-10-03T13:51:04.533Z"
+      }
+    ],
+    "errors": [
+      {
+        "error": "invalid_card",
+        "message": "Cartão recusado pelo emissor.",
+        "id": "516e"
+      },
+      {
+        "error": "plan_not_found",
+        "message": "Plano inexistente.",
+        "id": "95ab"
+      }
+    ]
+  }
+}

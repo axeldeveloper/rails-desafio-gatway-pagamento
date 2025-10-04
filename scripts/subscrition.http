@@ -1,0 +1,142 @@
+
+###
+GET http://localhost:3000//api/v1/customers/8/subscriptions HTTP/1.1
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NTg3NTczNTB9.SacQI6O66TpvbLUSR47T3bFbVoxqO67hhGHTdXlfG0s
+
+###
+GET http://localhost:3000//api/v1/subscriptions/47 HTTP/1.1
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NTg3NTczNTB9.SacQI6O66TpvbLUSR47T3bFbVoxqO67hhGHTdXlfG0s
+
+
+###
+# API PAGARME
+POST http://localhost:3000//api/v1/customers/8/subscriptions HTTP/1.1
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NTg3NTczNTB9.SacQI6O66TpvbLUSR47T3bFbVoxqO67hhGHTdXlfG0s
+
+{
+  "subscription":{
+    "gateway_type": "pagarme",
+    "billing_type": "prepaid",  /* prepaid, postpaid exact_day. billingType  asaas*/
+    "interval_cycle": "month",
+    "description": "Pro Plan Subscription",
+    "customer_id": "cus_12457896325",   /* customer_id  string required  Pagarme */
+    /* customer: 'cus_0T1mdomVMi39'  string required Unique customer identifier in Asaas */
+
+    "plan_ids": "plan_21r4CTG0ux77Qv13",
+    "plan_id": 1,
+    "card_id": "card_ci234fx8rr649rt16rtb11132",
+    "payment_method": "credit_card",
+    "phone": "4735010919",
+    "mobilePhone": "4799376637",
+
+    "interval_count": 1,
+    "minimum_price": null,
+    "interval_count": 1,
+    "installments": 1,
+    "currency": "BRL",
+    "product_code":"BASE",
+    "customer": { /*   object in pagarme  */
+      "name": "Morpheus Fishburne",
+      "email": "mopheus@nabucodonozor.com",
+      "type": "individual",
+      "country": "BR",
+      "gender": "male",
+      "document": "01516168178",
+      "document_type": "CPF",
+      "type": "pessoa física",
+      "phone_numbers": ["+5567993086042"],
+      "birthday": "1965-01-01"
+    },
+    "pricing_scheme": {
+      "scheme_type": "Unit"
+    },
+    "quantity": null,
+    "items": [
+      {
+        "pricing_scheme": {
+          "scheme_type": "Unit"
+        },
+        "name": "netflix",
+        "quantity": "2",
+        "description": "pagar netflix",
+        "id": "pi_124578956232",
+        "status": "active",
+        "created_at": "24/09/2025"
+      }
+    ],
+
+    "statement_descriptor": "SC",
+    "postback_url": "https://meusite.com/postbacks",
+        "metadata": {
+          "idProduto": "123",
+          "promocao": "true",
+          "origin": "PMS"
+        }
+  }
+}
+
+###
+# API ASAAS
+POST http://localhost:3000//api/v1/customers/8/subscriptions HTTP/1.1
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NTg3NTczNTB9.SacQI6O66TpvbLUSR47T3bFbVoxqO67hhGHTdXlfG0s
+
+{
+
+  "subscription":{
+    "gateway_type": "asaas",
+    "billingType": "BOLETO", /* UNDEFINED BOLETO CREDIT_CARD PIX  */
+    "interval_cycle": "month",  /* WEEKLY BIWEEKLY MONTHLY BIMONTHLY QUARTERLY SEMIANNUALLY YEARLY */
+    "description": "Pro Plan Subscription",
+    /* "customer_id": "cus_12457896325",*/   /* customer_id  string required  Pagarme */
+    /* customer: 'cus_0T1mdomVMi39'  string required Unique customer identifier in Asaas */
+    "customer": "cus_0T1mdomVMi39",
+    "value": 19.9,
+    "nextDueDate": "2017-05-15",
+    "discount": {"value": 10, "dueDateLimitDays": 0, "type": "PERCENTAGE"},
+    "interest": {"value": null},
+    "fine": {"value": null, "type": "FIXED"},
+    "interval_cycle": "MONTHLY",
+    "description": "Pro Plan Subscription",
+    "endDate": null,
+    "maxPayments": null,
+    "externalReference": null,
+    "split": [
+      {
+        "walletId": null,
+        "fixedValue": null,
+        "percentualValue": null,
+        "externalReference": null,
+        "description": null
+      }
+    ],
+    "callback": {"successUrl": null, "autoRedirect": null}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###
+POST  http://localhost:3000//api/v1/subscriptions/47/cancel HTTP/1.1
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NTg3NTczNTB9.SacQI6O66TpvbLUSR47T3bFbVoxqO67hhGHTdXlfG0s
+
+{
+  "cancel_pending_invoices": true
+}

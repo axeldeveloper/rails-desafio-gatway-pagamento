@@ -1,0 +1,25 @@
+:concurrency: 5
+:queues:
+  - default
+  - migration
+  - mailers
+
+:cron:
+  customer_migration_job:
+    name: "Daily job - every 1 minute"
+    cron: "* * * * *"
+    class: "ActiveJob::QueueAdapters::SidekiqAdapter::JobWrapper"
+    args:
+      job_class: "CustomerMigrationJob"
+      arguments:
+        - batch_size: 50
+    queue: migration
+
+# :cron:
+#   customer_migration_job:
+#     name: 'Daily job - every day 1 minutes'
+#     cron: "* * * * *"   # a cada 1 minuto
+#     class: "CustomerMigrationJob"
+#     queue: migration
+#     args:
+#       batch_size: 50

@@ -1,0 +1,48 @@
+###
+POST http://localhost:3000/api/v1/auth/login HTTP/1.1
+content-type: application/json
+
+{
+  "email": "admin@example.com",
+  "password": "pas123"
+}
+
+
+###
+GET http://localhost:3000/api/v1/customers?page=1&per_page=25 HTTP/1.1
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NTg3NTczNTB9.SacQI6O66TpvbLUSR47T3bFbVoxqO67hhGHTdXlfG0s
+
+
+###
+POST http://localhost:3000/api/v1/customers HTTP/1.1
+content-type: application/json
+Authorization: token eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3NTg3NTczNTB9.SacQI6O66TpvbLUSR47T3bFbVoxqO67hhGHTdXlfG0s
+
+{
+  "customer": {
+    "name": "Axel Alexander Silva",
+    "email": "axel.silva@example.com",
+    "document": "01516168178",
+    "phone": "+5567993086042",
+    "address": "Rua das Flores, 123",
+    "street": "Av. Paulista",
+    "city": "São Paulo",
+    "state": "SP",
+    "zip_code": "01310-100",
+    "country": "BR",
+    "external_ids": {
+      "pagarme_customer_id": "cust_123456789"
+    },
+    "payment_methods_attributes": [
+      {
+        "kind": "credit_card",
+        "default": true,
+        "external_ids": {
+          "pagarme_payment_method_id": "pm_ci234fx8rr649rt16rtb11132",
+          "asaas_payment_method_id":"pm_asaas123456789"
+        }
+      }
+    ]
+  }
+}
