@@ -23,7 +23,7 @@ gem "httparty", "~> 0.21"
 # gem 'faraday-retry', '~> 2.2'
 
 # Authentication & Authorization
-gem "jwt", "~> 2.7"
+gem "jwt", "~> 3.1"
 
 gem "jsonapi-serializer"
 
