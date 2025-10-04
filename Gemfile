@@ -35,7 +35,7 @@ gem "cpf_cnpj", "~> 0.5"
 gem "money-rails", "~> 1.15"
 
 # Configuration
-gem "dotenv-rails", "~> 2.8"
+gem "dotenv-rails", "~> 3.1"
 
 # Pagination
 gem "kaminari", "~> 1.2"
