@@ -13,7 +13,7 @@ gem "puma", ">= 5.0"
 gem "bcrypt", "~> 3.1.7"
 
 # Background Jobs
-gem "sidekiq", "~> 7.2"
+gem "sidekiq", "~> 8.0"
 gem "sidekiq-cron", "~> 1.10"
 
 
